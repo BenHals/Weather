@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<link rel = "stylesheet" href="weather.css">
+		<script src="../Library/jquery-2.0.3.js"></script>
+		<script src="weather.js"></script>
+	</head>
+	<body >
+		<!-- <canvas id = "canvas" width = "1000" height = "1000"> -->
+			<div class = "centered">
+				<div class="content" id = "header"> 
+					Weather- Search for city and/or country.
+				</div>
+				<div class="content" id = "Main"> 
+
+				</div>
+				<div class="content" id = "Footer"> 
+					<form name="citySearch" onSubmit="return handleClick()" id="cityForm">
+					<!-- <form name="citySearch" action="test.py" method='get'> -->
+						<input type = "text" name = "cityInput" id = "cityInput" class = "field" value = 'Auckland'/>
+						<input name="submit" type="submit" value="Search" />
+
+					</form>
+				</div>
+			</div>
+		<!-- </canvas> -->
+	</body>
+
+</html>

@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'franchiseregular';
+    src: url('../Images/Fonts/franchise-bold-webfont.eot');
+    src: url('../Images/Fonts/franchise-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Images/Fonts/franchise-bold-webfont.woff') format('woff'),
+         url('../Images/Fonts/franchise-bold-webfont.ttf') format('truetype'),
+         url('../Images/Fonts/franchise-bold-webfont.svg#franchiseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background-image:url('brushed_alu_@2X.png');
+	background: -webkit-canvas(mybackground);
+	text-align:center;
+}
+p{
+	color:black;
+}
+canvas{
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: -1;
+	background:blue;
+}
+
+#header{
+	font-size: 64px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px; 
+
+}
+#main p{
+	font-family:franchiseregular;
+	color:#C63D0F;
+}
+.centered{
+	width:700px;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.content{
+	font-size: 32px;
+	width:100%;
+	height:300px;
+	display:block;
+	position: relative;
+	float:left;
+	margin-top: 5px;
+	z-index: 0;
+	font-family:franchiseregular;
+	color:#C63D0F;
+}
